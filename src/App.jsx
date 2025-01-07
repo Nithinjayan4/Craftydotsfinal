@@ -6,6 +6,7 @@ import Services from "./components/Service"
 import Contact from "./components/Contact"
 import LoadingScreen from "./components/LoadingScreen"
 import { useEffect, useState } from "react"
+import WhatsAppChat from "./components/WhatsAppChat"
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <About />
           <Services />
           <Contact />
+          <WhatsAppChat/>
         </>
       )}
     </div>
