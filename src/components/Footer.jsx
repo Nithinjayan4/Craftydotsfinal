@@ -6,7 +6,7 @@ function Footer() {
             <div data-name="footer-content" className="container mx-auto px-6">
                 <div data-name="footer-grid" className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div data-name="footer-about">
-                        <h3 data-name="footer-title" className="text-xl font-bold mb-4">CraftyDot</h3>
+                        <h3 data-name="footer-title" className="text-xl font-bold mb-4">CraftyDots</h3>
                         <p data-name="footer-description" className="text-gray-300">
                             Creating innovative software solutions for tomarrow's challenges.
                         </p>
