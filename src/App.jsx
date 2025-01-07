@@ -7,6 +7,7 @@ import Contact from "./components/Contact"
 import LoadingScreen from "./components/LoadingScreen"
 import { useEffect, useState } from "react"
 import WhatsAppChat from "./components/WhatsAppChat"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <About />
           <Services />
           <Contact />
+          <Footer/>
           <WhatsAppChat/>
         </>
       )}
