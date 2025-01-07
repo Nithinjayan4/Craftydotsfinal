@@ -15,8 +15,8 @@ export default function LoadingScreen() {
     <div className="loading-container">
       {loading ? (
         <div className="loading-text">
-          <span className="loading-white">Load</span>
-          <span className="loading-red">ing...</span>
+          <span className="loading-white">Building</span>
+          <span className="loading-red">Ideas...</span>
         </div>
       ) : (
         <div>Your content here after loading...</div> // Content to display after loading
