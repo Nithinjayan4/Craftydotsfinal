@@ -1,0 +1,28 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+}
+
+.logo-text-white {
+    color: #ffffff;
+}
+
+.logo-text-red {
+    color: #ff0000;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.hero-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+}
+
+.service-card {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}

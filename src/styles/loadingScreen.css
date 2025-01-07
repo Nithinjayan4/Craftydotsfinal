@@ -1,0 +1,26 @@
+/* Styling the container of the loading screen */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Dark background */
+  }
+  
+  /* Styling the loading text */
+  .loading-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Styling the 'Load' part in white */
+  .loading-white {
+    color: white;
+  }
+  
+  /* Styling the 'ing...' part in red */
+  .loading-red {
+    color: red;
+  }
+  
