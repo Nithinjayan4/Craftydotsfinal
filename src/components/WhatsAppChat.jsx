@@ -1,4 +1,4 @@
-import '../styles/WhatsApp.css'
+import '../styles/whatsApp.css'
 function WhatsAppChat() {
     const phoneNumber = '+919074080652'; // Replace with your WhatsApp phone number
     const message = 'Hello%20I%20need%20assistance'; // URL-encoded message
