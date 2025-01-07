@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -11,23 +12,17 @@ function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div data-name="logo" className="text-2xl font-bold">
-            <span className="logo-text-white">Crafty</span>
-            <span className="logo-text-red">Dots</span>
+          <a href="#home" className="logo">
+        <span className="logo-text-white">Crafty</span>
+        <span className="logo-text-red">Dots</span>
+      </a>
           </div>
 
           <div className="hidden md:flex space-x-8">
-            <a href="#home" data-name="nav-home" className="nav-link">
-              Home
-            </a>
-            <a href="#about" data-name="nav-about" className="nav-link">
-              About
-            </a>
-            <a href="#services" data-name="nav-services" className="nav-link">
-              Services
-            </a>
-            <a href="#contact" data-name="nav-contact" className="nav-link">
-              Contact
-            </a>
+          <a href="#home" data-name="nav-home" className="nav-link">Home</a>
+                        <a href="#about" data-name="nav-about" className="nav-link">About</a>
+                        <a href="#services" data-name="nav-services" className="nav-link">Services</a>
+                        <a href="#contact" data-name="nav-contact" className="nav-link">Contact</a>
           </div>
 
           <button
