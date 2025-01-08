@@ -31,7 +31,7 @@ function Footer() {
                         <h4 data-name="social-title" className="text-lg font-semibold mb-4">Follow Us</h4>
                         <div data-name="social-links" className="flex space-x-4">
                             <a href="#" className="text-gray-300 hover:text-white">Twitter</a>
-                            <a href="#" className="text-gray-300 hover:text-white">LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/craftydot/" className="text-gray-300 hover:text-white">LinkedIn</a>
                             <a href="#" className="text-gray-300 hover:text-white">Facebook</a>
                         </div>
                     </div>
