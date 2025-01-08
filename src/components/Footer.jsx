@@ -32,7 +32,7 @@ function Footer() {
                         <div data-name="social-links" className="flex space-x-4">
                             <a href="#" className="text-gray-300 hover:text-white">Twitter</a>
                             <a href="https://www.linkedin.com/company/craftydot/" className="text-gray-300 hover:text-white">LinkedIn</a>
-                            <a href="#" className="text-gray-300 hover:text-white">Facebook</a>
+                            <a href="https://www.instagram.com/craft.dots/?utm_source=ig_web_button_share_sheet" className="text-gray-300 hover:text-white">Instagram</a>
                         </div>
                     </div>
                 </div>
