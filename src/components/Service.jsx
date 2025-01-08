@@ -4,7 +4,7 @@ function Services() {
     const services = [
         {
             title: "Web Development",
-            description: "Building responsive and dynamic websites using the latest technologies like React, Node.js, and Vite.",
+            description: "Building responsive and dynamic websites using the latest technologies like React, Angular, and NextJs.",
             image: "https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323528.jpg?w=826"
         },
         {
