@@ -10,7 +10,7 @@ function About() {
                 <div className="max-w-3xl mx-auto">
                     <p data-name="about-description" className="text-lg text-gray-300 text-center">
                         CraftyDot is a leading software development company that specializes in creating custom software solutions 
-                        for businesses of all sizes. We focus on cutting-edge technologies, including React.js, Node.js, and 
+                        for businesses of all sizes. We focus on cutting-edge technologies, including Web,Mobile, and 
                         cloud-based solutions.
                     </p>
                 </div>
