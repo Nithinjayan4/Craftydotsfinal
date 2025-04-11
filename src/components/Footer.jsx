@@ -37,9 +37,9 @@ function Footer() {
                     </div>
                 </div>
                 <div data-name="footer-bottom" className="mt-8 pt-8 border-t border-gray-700 text-center">
-                    <p data-name="copyright" className="text-gray-400">
-                        © {new Date().getfullyear()} CraftyDots. All rights reserved.
-                    </p>
+                <p data-name="copyright" className="text-gray-400">
+    © {new Date().getFullYear()} CraftyDots. All rights reserved.
+</p>
                 </div>
             </div>
         </footer>
