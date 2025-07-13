@@ -8,11 +8,11 @@ function About() {
                     About Us
                 </h2>
                 <div className="max-w-3xl mx-auto">
-                    <p data-name="about-description" className="text-lg text-gray-300 text-center">
-                        CraftyDots is a leading software development company that specializes in creating custom software solutions 
-                        for businesses of all sizes. We focus on cutting-edge technologies, including Web, Mobile, and 
-                        cloud-based solutions.
-                    </p>
+                   <p data-name="about-description" className="text-lg text-gray-300 text-center">
+  CraftyDots is a software development company delivering custom web, mobile, and cloud solutions. 
+  We help businesses build fast, scalable, and modern digital products.
+</p>
+
                 </div>
             </div>
         </section>

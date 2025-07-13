@@ -1,25 +1,31 @@
-import  { useState, useEffect } from 'react';
-import '../styles/loadingScreen.css'; // Import the CSS file
+import { useState, useEffect } from 'react';
+import '../styles/loadingScreen.css';
 
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
 
-  // Simulate a delay for loading
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false); // Hide loading screen after 3 seconds (for example)
+    const timer = setTimeout(() => {
+      setLoading(false);
     }, 3000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className="loading-container">
       {loading ? (
-        <div className="loading-text">
-          <span className="loading-white">Connecting</span>
-          <span className="loading-red">Dots...</span>
+        <div className="loading-content">
+          <div className="spinner" />
+          <div className="loading-text">
+            <span>Connecting</span>
+            <span className="dot">.</span>
+            <span className="dot">.</span>
+            <span className="dot">.</span>
+          </div>
         </div>
       ) : (
-        <div>Your content here after loading...</div> // Content to display after loading
+        <div>Your content here after loading...</div>
       )}
     </div>
   );
