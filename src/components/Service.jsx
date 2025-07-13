@@ -16,6 +16,21 @@ function Services() {
             title: "Cloud Solutions",
             description: "Leveraging cloud platforms like AWS and Google Cloud to provide scalable and secure solutions.",
             image: "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399284.jpg?t=st=1736254425~exp=1736258025~hmac=a4b5dab09d2d4e377a358e8b675e7ac2dbbf4351ab731adccefe6af0d559362f&w=826"
+        },
+        {
+            title: "WordPress Development",
+            description: "Creating custom WordPress websites and themes with powerful content management capabilities.",
+            image: "https://wallpapercave.com/wp/wp6905445.png"
+        },
+        {
+            title: "Shopify Development",
+            description: "Building robust e-commerce stores on Shopify platform with custom themes and functionality.",
+            image: "https://bavaan.com/wp-content/uploads/2022/07/S.jpg"
+        },
+        {
+            title: "AI Development",
+            description: "Developing intelligent solutions using machine learning and artificial intelligence technologies.",
+            image: "https://blogs.debutinfotech.com/wp-content/uploads/2024/04/Artificial-Intelligence-Development.jpg"
         }
     ];
 
@@ -28,7 +43,7 @@ function Services() {
                 >
                     Our Services
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <div
                             key={index}
